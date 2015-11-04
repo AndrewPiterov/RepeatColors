@@ -1,0 +1,13 @@
+﻿{
+  "files": [
+    {
+      "pattern": "test/lib/chai.js",
+      "instrument": false
+    },
+    "src/*.js"
+  ],
+  "tests": [
+    "test/*Tests.js"
+  ],
+  "testFramework": "mocha"
+}
