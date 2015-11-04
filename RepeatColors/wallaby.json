@@ -4,7 +4,10 @@
       "pattern": "test/lib/chai.js",
       "instrument": false
     },
-    "src/*.js"
+    {
+      "pattern": "src/*.js",
+      "instrument": true
+    }
   ],
   "tests": [
     "test/*Tests.js"
