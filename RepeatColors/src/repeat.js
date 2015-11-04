@@ -12,7 +12,6 @@
 RandomColorSequence.numberToColor = numberToColor;
 
 function numberToColor(number) {
-
     if (number === 1) {
         return "red";
     }
